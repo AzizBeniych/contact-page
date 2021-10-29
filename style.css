@@ -79,8 +79,10 @@ ul{
 .header{
     display: inline-block;
     width: 100%;
-    height: 17rem;
+    height: 23rem;
     background-color: rgb(255, 136, 0);
+    
+
 }
 /*header info*/
 h1{
@@ -89,7 +91,7 @@ h1{
     font-size: 50px;
     display: inline-block;
     margin-left: 470px;
-    margin-top: 8rem;
+    margin-top: 10rem;
 
 }
 
@@ -102,6 +104,8 @@ p{
 main{
     display: flex;
     justify-content: space-around;
+    height: 20cm;
+    justify-content: center;
     
 
 }
@@ -122,12 +126,15 @@ p{
     font-size: 15px;
 }
 h2{
-    margin-left: 9rem;
-    margin-top: 3rem;
+    margin-left: 4rem;
+    margin-top: 10rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #5BB5DE
     
     
+}
+#gota{
+    margin-left: 4rem;
 }
 h3{
     margin-left: 11rem;
@@ -149,16 +156,27 @@ margin-left: 9rem;
 border-radius: 5px;
 border-color: rgb(90, 90, 90);
 outline: none;
+margin-left: 4rem;
 }
 .formuler button{
-    margin-left: 28rem;
-    width: 5rem;
-    height: 2rem;
+    margin-left: 22rem;
+    width: 6rem;
+    height: 3rem;
     color: rgb(255, 255, 255);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: rgb(255, 136, 0);
     border: 0;
-border-radius: 5px;
+border-radius: 3px;
+}
+#paree{
+    margin-left: 0cm;
+}
+#htree{
+    margin-left: 0cm;
+    font-size: 20px;
+}
+#landerte{
+    margin-left: 0cm;
 }
 /*button decoration*/
 .formuler button:hover{
